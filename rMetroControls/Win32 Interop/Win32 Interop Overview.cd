@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RuerteControls.Win32Interop.NativeMethods">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACABAAAAAAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Win32 Interop\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.Win32Interop.NativeWrappers">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Win32 Interop\NativeWrappers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.Win32Interop.NativeStructs">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Win32 Interop\NativeStructs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.Win32Interop.NativeConstants">
+    <Position X="4.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Win32 Interop\NativeConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

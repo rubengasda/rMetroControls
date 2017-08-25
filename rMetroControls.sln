@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rMetroControls", "rMetroControls\rMetroControls.csproj", "{802F709F-297E-414B-9599-E2EF9EF82FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rMetroControls.Test", "rMetroControls.Test\rMetroControls.Test.csproj", "{B4A41C3E-1DB9-486F-A99B-5A53E892C18E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802F709F-297E-414B-9599-E2EF9EF82FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802F709F-297E-414B-9599-E2EF9EF82FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802F709F-297E-414B-9599-E2EF9EF82FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802F709F-297E-414B-9599-E2EF9EF82FD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A41C3E-1DB9-486F-A99B-5A53E892C18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A41C3E-1DB9-486F-A99B-5A53E892C18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A41C3E-1DB9-486F-A99B-5A53E892C18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A41C3E-1DB9-486F-A99B-5A53E892C18E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

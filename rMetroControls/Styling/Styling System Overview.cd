@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RuerteControls.Style">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="visualStudioDarkStyle" Hidden="true" />
+      <Field Name="visualStudioLightStyle" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABIAAAACABkAAAAAAAAAQQAAAEAQAAAAAAAAAABAAA=</HashCode>
+      <FileName>Styling\Predefined Styles\VisualStudioDarkStyle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.StyleProvider">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="activeStyle" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAEAAAACAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Styling\StyleProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.StyleTester">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="currentStyle" Hidden="true" />
+      <Property Name="DefaultSize" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAgAAAAAAAAAAAADAAAAAAAAAA=</HashCode>
+      <FileName>Controls\StyleTester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

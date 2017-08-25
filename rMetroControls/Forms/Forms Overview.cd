@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RuerteControls.StyledHeaderlessForm">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <Members>
+      <Field Name="borderColor" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAQAAAAAAMAAAACAAEAAAAAIAAAQAAAAAA=</HashCode>
+      <FileName>Forms\StyledHeaderlessForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.ShadowProvider">
+    <Position X="3.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAIAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\ShadowProvider.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RuerteControls.AeroShadowProvider">
+    <Position X="5.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\Predefined ShadowProviders\AeroShadowProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.NoShadowProvider">
+    <Position X="3.5" Y="3" Width="1.75" />
+    <InheritanceLine Type="RuerteControls.ShadowProvider" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="2.632" />
+        <Point X="4.5" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Forms\Predefined ShadowProviders\NoShadowProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.LayeredWindowShadowProviderBase">
+    <Position X="7.5" Y="3" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="RuerteControls.LayeredWindowShadowProviderBase.LayeredWindow">
+        <TypeIdentifier>
+          <NewMemberFileName>Forms\Predefined ShadowProviders\LayeredWindowShadowProviderBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABEAAAABgABAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Forms\Predefined ShadowProviders\LayeredWindowShadowProviderBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.LayeredWindowGlowShadowProvider">
+    <Position X="4.5" Y="6" Width="2.75" />
+    <Members>
+      <Field Name="baseOpacity" Hidden="true" />
+      <Field Name="glowColor" Hidden="true" />
+      <Field Name="shadowFactor" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAQCAAREAAAEAAAAAAAAAAAAAAAAAIAEABAAAA=</HashCode>
+      <FileName>Forms\Predefined ShadowProviders\LayeredWindowGlowShadowProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

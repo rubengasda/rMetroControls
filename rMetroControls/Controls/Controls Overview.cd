@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RuerteControls.StyledToolTip">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAQAAgAAAAAAAAAAAgAAAAAAAACIABAAAAACBAAA=</HashCode>
+      <FileName>Controls\StyledToolTip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.Controls.StyledContextMenu">
+    <Position X="2.25" Y="0.5" Width="2.75" />
+    <Members>
+      <Field Name="displayShadow" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="RuerteControls.Controls.StyledContextMenu.StyledContextMenuRenderer">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\StyledContextMenu.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="RuerteControls.Controls.StyledContextMenu.StyledContextMenuColorTable">
+        <TypeIdentifier>
+          <NewMemberFileName>Controls\StyledContextMenu.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Controls\StyledContextMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuerteControls.Controls.StyledTreeView">
+    <Position X="5.25" Y="0.5" Width="1.75" />
+    <Members>
+      <Field Name="currentStyle" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAAAAAAAgAgAAAAABAAAAAAbAAAAAAAAAA=</HashCode>
+      <FileName>Controls\StyledTreeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

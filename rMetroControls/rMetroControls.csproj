@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{802F709F-297E-414B-9599-E2EF9EF82FD3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>rMetroControls</RootNamespace>
+    <AssemblyName>rMetroControls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\StyledTreeView.cs" />
+    <Compile Include="Controls\StyledContextMenu.cs" />
+    <Compile Include="Controls\StyledToolTip.cs" />
+    <Compile Include="Controls\StyleTester.cs" />
+    <Compile Include="Forms\Predefined ShadowProviders\AeroShadowProvider.cs" />
+    <Compile Include="Forms\Predefined ShadowProviders\LayeredWindowGlowShadowProvider.cs" />
+    <Compile Include="Forms\Predefined ShadowProviders\LayeredWindowShadowProviderBase.cs" />
+    <Compile Include="Forms\Predefined ShadowProviders\NoShadowProvider.cs" />
+    <Compile Include="Forms\ShadowProvider.cs" />
+    <Compile Include="Forms\StyledHeaderlessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Styling\Predefined Styles\VisualStudioDarkStyle.cs" />
+    <Compile Include="Styling\Predefined Styles\VisualStudioLightStyle.cs" />
+    <Compile Include="Styling\Style.cs" />
+    <Compile Include="Styling\StyleProvider.cs" />
+    <Compile Include="Win32 Interop\NativeMethods.cs" />
+    <Compile Include="Win32 Interop\NativeStructs.cs" />
+    <Compile Include="Win32 Interop\NativeConstants.cs" />
+    <Compile Include="Win32 Interop\NativeWrappers.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Controls\Controls Overview.cd" />
+    <None Include="Forms\Forms Overview.cd" />
+    <None Include="Styling\Styling System Overview.cd" />
+    <None Include="Win32 Interop\Win32 Interop Overview.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
