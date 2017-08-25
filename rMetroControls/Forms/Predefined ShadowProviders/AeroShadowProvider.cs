@@ -1,11 +1,8 @@
-﻿using RuerteControls.Win32Interop;
+﻿using rMetroControls.Win32Interop;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
-namespace RuerteControls
+namespace rMetroControls
 {
     /// <summary>
     /// A shadow provider that uses an aero-based mechanism to create a bold, hardware-accelerated shadow.

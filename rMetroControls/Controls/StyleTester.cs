@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Drawing.Text;
 using System.Windows.Forms;
 
-namespace RuerteControls
+namespace rMetroControls
 {
     /// <summary>
     /// A Control for testing Styles

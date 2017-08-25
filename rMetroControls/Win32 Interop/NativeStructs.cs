@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Runtime.InteropServices;
 
-namespace RuerteControls.Win32Interop
+namespace rMetroControls.Win32Interop
 {
     /// <summary>
     /// Provides structures to use with Win32 native methods

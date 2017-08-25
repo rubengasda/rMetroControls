@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace RuerteControls
+namespace rMetroControls
 {
     public partial class Style
     {

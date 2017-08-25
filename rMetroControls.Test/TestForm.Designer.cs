@@ -1,4 +1,4 @@
-﻿namespace RuerteControls.Test
+﻿namespace rMetroControls.Test
 {
     partial class TestForm
     {
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.styledContextMenu1 = new RuerteControls.Controls.StyledContextMenu(this.components);
+            this.styledContextMenu1 = new rMetroControls.Controls.StyledContextMenu(this.components);
             this.blaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.parentItemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.childItem1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,7 +44,7 @@
             this.ControlPropertyGrid = new System.Windows.Forms.PropertyGrid();
             this.TypeComboBox = new System.Windows.Forms.ComboBox();
             this.StyleComboBox = new System.Windows.Forms.ComboBox();
-            this.styledToolTip1 = new RuerteControls.StyledToolTip();
+            this.styledToolTip1 = new rMetroControls.StyledToolTip();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();

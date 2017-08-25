@@ -1,13 +1,10 @@
-﻿using RuerteControls.Win32Interop;
+﻿using rMetroControls.Win32Interop;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
-namespace RuerteControls
+namespace rMetroControls
 {
     /// <summary>
     /// A base class for creating shadows based on the layered window principle.

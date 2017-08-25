@@ -1,21 +1,12 @@
-﻿using RuerteControls.Win32Interop;
+﻿using rMetroControls.Win32Interop;
 using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
 using System.ComponentModel;
-using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Text;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RuerteControls.Controls
+namespace rMetroControls.Controls
 {
     /// <summary>
     /// A TreeView that matches the currently enabled style of the application.

@@ -1,5 +1,5 @@
 ﻿
-namespace RuerteControls.Win32Interop
+namespace rMetroControls.Win32Interop
 {
     /// <summary>
     /// Provides constants for use with Win32 native methods

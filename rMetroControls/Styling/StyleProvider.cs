@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RuerteControls
+namespace rMetroControls
 {
     /// <summary>
     /// Provides the color schemes for the controls in this library.

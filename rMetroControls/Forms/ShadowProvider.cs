@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
-namespace RuerteControls
+namespace rMetroControls
 {
     /// <summary>
     /// Provides a Shadow for an instance of a styled form.

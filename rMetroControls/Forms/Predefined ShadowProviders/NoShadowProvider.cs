@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
-namespace RuerteControls
+namespace rMetroControls
 {
     /// <summary>
     /// A shadow provider that doesn't do anything.

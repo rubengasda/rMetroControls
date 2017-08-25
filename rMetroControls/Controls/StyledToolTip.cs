@@ -1,4 +1,4 @@
-﻿using RuerteControls.Win32Interop;
+﻿using rMetroControls.Win32Interop;
 using System;
 using System.ComponentModel;
 using System.Drawing;
@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace RuerteControls
+namespace rMetroControls
 {
     /// <summary>
     /// A styled version of the normal ToolTip.

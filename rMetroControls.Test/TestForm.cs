@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RuerteControls.Test
+namespace rMetroControls.Test
 {
     public partial class TestForm : Form
     {
@@ -20,7 +17,7 @@ namespace RuerteControls.Test
 
         private void TestForm_Load(object sender, EventArgs e)
         {
-            var library = Assembly.Load("RuerteControls");
+            var library = Assembly.Load("rMetroControls");
             var exportedTypes = library.GetExportedTypes();
             var controls = exportedTypes.Where(t => typeof(Control).IsAssignableFrom(t) && !typeof(Form).IsAssignableFrom(t) && !typeof(ToolStrip).IsAssignableFrom(t) && !t.IsAbstract && t.IsPublic && t.IsVisible && !t.IsGenericType);
             this.TypeComboBox.DataSource = controls.ToList();

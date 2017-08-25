@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-namespace RuerteControls.Win32Interop
+namespace rMetroControls.Win32Interop
 {
     /// <summary>
     /// Provides wrappers for Win32 native methods.

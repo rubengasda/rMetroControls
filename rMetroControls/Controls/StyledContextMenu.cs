@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace RuerteControls.Controls
+namespace rMetroControls.Controls
 {
     /// <summary>
     /// A styled context menu.

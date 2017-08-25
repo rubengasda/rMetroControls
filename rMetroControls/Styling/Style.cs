@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace RuerteControls
+namespace rMetroControls
 {
     /// <summary>
     /// Provides color styling for the controls in this library.

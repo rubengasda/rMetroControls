@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace RuerteControls.Win32Interop
+namespace rMetroControls.Win32Interop
 {
     /// <summary>
     /// Provides access to some Win32 methods
